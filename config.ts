@@ -57,7 +57,7 @@ export const config: Config = {
   // Greetings
   greetingMorning: 'It seems to be morning for you... ',
   greetingAfternoon: 'Yet another afternoon, as always... ',
-  greetingEvening: 'Its getting dark outside, be carefull...',
+  greetingEvening: 'Its getting dark outside, be careful...',
   greetingNight: 'You should be sleeping right now... ',
 
   // Layout
