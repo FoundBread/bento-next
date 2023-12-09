@@ -11,13 +11,13 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
+  name: 'Br3ad',
   openInNewTab: true,
-  title: 'Bento',
+  title: 'FoundBento',
 
   // Clock
   twelveHourFormat: false,
-  flashSeparator: false,
+  flashSeparator: true,
 
   // Font Family
   font: {
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'catppuccin-mocha',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -51,20 +51,20 @@ export const config: Config = {
   // Search Bar
   searchBar: true,
   searchEngine: 'google', // google, ddg
-  barPlaceholder: '', // if blank, use search engine name. Set to ' ' for no placeholder.
+  barPlaceholder: 'Whatcha gonna search?', // if blank, use search engine name. Set to ' ' for no placeholder.
   autoFocusBar: true,
 
   // Greetings
-  greetingMorning: 'Good morning,',
-  greetingAfternoon: 'Good afternoon,',
-  greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
+  greetingMorning: 'It seems to be morning for you... ',
+  greetingAfternoon: 'Yet another afternoon, as always... ',
+  greetingEvening: 'Its getting dark outside, be carefull...',
+  greetingNight: 'You should be sleeping right now... ',
 
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
 
   // Weather
-  weatherKey: import.meta.env.VITE_API_KEY, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
+  weatherKey: import.meta.env.65515acea3b41ced21d21ca7ae101ddb, // Set your OpenWeatherMap key in .env - Move the included .env.example to .env
   weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
   weatherUnit: 'C', // 'F', 'C'
   language: 'en', // More languages in https://openweathermap.org/current#multi
@@ -109,27 +109,27 @@ export const config: Config = {
       {
         name: 'Mail',
         icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        url: 'https://mail.google.com/mail/u/0/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Drive',
+        icon: 'fab-google-drive',
+        url: 'https://drive.google.com/drive/',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Twitch',
+        icon: 'fab-twitch',
+        url: 'https://www.twitch.tv/',
       },
       {
-        name: 'Reddit',
-        icon: 'fab-reddit',
-        url: 'https://reddit.com',
+        name: 'Wikiwand',
+        icon: 'wand-magic-sparkles',
+        url: 'https://www.wikiwand.com/',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'Pinterest',
+        icon: 'fab-pinterest',
+        url: 'https://br.pinterest.com/',
       },
     ],
     // Second buttons group
@@ -174,44 +174,44 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        icon: 'music', // Icon for the list to use. The same as the buttons.
+        icon: 'message', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'Sakurajima', // Display text for the link
+            url: 'https://sakurajima.social/', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'WhatsApp Web',
+            url: 'https://web.whatsapp.com/',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Instagram',
+            url: 'https://www.instagram.com/',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Nitter',
+            url: 'https://nitter.net/',
           },
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'cookie-bite',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Catppuccin',
+            url: 'https://github.com/catppuccin/catppuccin',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'XP Animes',
+            url: 'https://xpanimes.com/',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'Danbooru',
+            url: 'https://danbooru.donmai.us/',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'Character.Ai',
+            url: 'https://beta.character.ai/',
           },
         ],
       },
